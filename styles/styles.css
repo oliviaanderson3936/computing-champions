@@ -56,11 +56,11 @@ nav ul li a:hover {
 #banner {
     height: 300px;
 }
-#blobs {
-    float: left; 
-    margin-left: 50px;
-    margin-right: 50px;
+#form {
+    width: 650px;
+    float: right;
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 /*main*/
 main {
@@ -71,3 +71,69 @@ main {
 main h2 {
     margin: 10px;
 }
+#about {
+    margin-top: -20px;
+}
+#contact {
+    width: 500px;
+    float: left;
+    margin-top: 20px;
+}
+/*aside*/
+aside {
+    width: 200px;
+}
+#blobs {
+    float: left; 
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+    height: 300px;
+}
+#about_blobs {
+    float: left; 
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 5px;
+    height: 300px;
+}
+#about_info {
+    text-align: center;
+    margin-bottom: 20px;
+}
+/*form*/
+form h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+.feedback-input {
+    color: ff9f1c;
+    font-family: 'Jost', sans-serif;
+    font-size: 16px;
+    border-radius: 5px;
+    line-height: 22px;
+    background-color: transparent;
+    border:2px solid #e71d36;
+    transition: all 0.3s;
+    padding: 13px;
+    margin-bottom: 15px;
+    width:100%;
+    box-sizing: border-box;
+    outline:0;
+  }
+  .feedback-input:focus { border:2px solid #e71d36; }
+  textarea {
+    height: 150px;
+    line-height: 150%;
+    resize:vertical;
+  }
+  #submit {
+      width: 300px;
+      background:#e71d36;
+      border-radius: 5px;
+      padding: 10px 295px;
+      transition: all 0.3s;
+      text-decoration: none;
+      font-weight: bold;
+  }
+  #submit:hover { background: #2EC4B6; }
