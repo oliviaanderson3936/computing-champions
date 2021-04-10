@@ -5,6 +5,7 @@
     max-width: 1200px;
     margin: auto;
 }
+html, body {height: 100%;}
 body {font-family: 'Jost', sans-serif; font-size: 16px; color: #011627;}
 h1 {font-size: 2.5em; font-family: 'Fredoka One', cursive;}
 h2 {font-size: 1.8em; font-family: 'Fredoka One', cursive;}
@@ -53,6 +54,9 @@ nav ul li a:hover {
     font-weight: bold;
 }
 /*sections*/
+section {
+    text-align: center;
+}
 #banner {
     height: 300px;
 }
@@ -62,6 +66,27 @@ nav ul li a:hover {
     margin-top: 20px;
     margin-bottom: 20px;
 }
+#guide_heading {
+    padding-top : 15px;
+    padding-bottom: 30px;
+    float: left;
+    width: 30%;
+    margin-right: 70px;
+}
+#lesson_plans {
+    width: 30%;
+    float: left;
+    padding-top : 15px;
+    padding-bottom: 30px;
+}
+#lesson_materials {
+    padding-top : 15px;
+    padding-bottom: 30px;
+    float: right;
+    width: 30%;
+
+}
+
 /*main*/
 main {
     margin-top: 20px;
