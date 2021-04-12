@@ -1,4 +1,4 @@
-/*page properties*/
+/*page properties - universal styles for entire page such as font sizes, font families and page dimensions*/
 * {
     position: relative;
     background-color: #FDFFFC;
@@ -12,7 +12,7 @@ h2 {font-size: 1.8em; font-family: 'Fredoka One', cursive;}
 h3 {font-size: 1.25em; font-family: 'Fredoka One', cursive;}
 p {font-size: 1em;}
 a {color: #011627}
-/*header*/
+/*header - set the dimensions and colour for the header and logo */
 header {
     height: 140px;
     background-color: #2EC4B6;
@@ -24,7 +24,7 @@ header {
     left: 460px;
     top: 6px;
 }
-/*nav*/
+/*nav - set the dimensions for the nav bar and each of the different elements of a nav, such as the formatting (i.e colours and hover features)*/
 nav {
     text-align: center;
     line-height: 20px;
@@ -53,7 +53,7 @@ nav ul li a:hover {
     color:#FF9F1C;
     font-weight: bold;
 }
-/*sections*/
+/*sections - sets the universal dimensions for a section and the banners on each page as well as individual formatting for all other sections used throughout the site*/
 section {
     text-align: center;
 }
@@ -86,8 +86,7 @@ section {
     width: 30%;
 
 }
-
-/*main*/
+/*main - sets the universal dimensions for the 'main' of each webpage. ensuring that they fit for other individual elements on different pages*/
 main {
     margin-top: 20px;
     text-align: center;
@@ -104,7 +103,7 @@ main h2 {
     float: left;
     margin-top: 20px;
 }
-/*aside*/
+/*aside - sets the universal dimensions for the aside tags used within the pages as well as other measurements and floats for individual elements*/
 aside {
     width: 200px;
 }
@@ -126,13 +125,13 @@ aside {
     text-align: center;
     margin-bottom: 20px;
 }
-/*form*/
+/*form - sets the dimensions to fit the form onto the contact page as well as the colours that are to be used throughout the form. Also sets formatting for what happens when elements of the form are focussed on and hovered over*/
 form h2 {
     text-align: center;
     margin-bottom: 10px;
 }
 .feedback-input {
-    color: ff9f1c;
+    color: #ff9f1c;
     font-family: 'Jost', sans-serif;
     font-size: 16px;
     border-radius: 5px;
